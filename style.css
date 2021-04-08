@@ -1,0 +1,47 @@
+body{
+  text-align:center;
+  background-color:pink;
+    padding-top: 200px;
+}
+img{
+  width:250px;
+}
+p{
+  font-size:20px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: lavender;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: violet;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+#work img{
+    width: 400px;
+}
+#contact a{
+    color: rebeccapurple;
+}
+#contact iframe{
+    width: 100%;
+}
+#contact h3{
+    display: inline;
+}
